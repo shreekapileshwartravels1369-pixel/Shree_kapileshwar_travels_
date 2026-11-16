@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Shree Kapileshwar Tours and Travels by Mayur Chaudhari. Travel with comfort, reach with trust.">
+  <meta name="theme-color" content="#071d43">
+  <title>Shree Kapileshwar Tours and Travels | Mayur Chaudhari</title>
+  <style>
+    :root{--navy:#071d43;--navy2:#0d2d5c;--gold:#f7b900;--cream:#fffaf0;--ink:#17243a}
+    *{box-sizing:border-box} html{scroll-behavior:smooth}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fff}
+    a{color:inherit;text-decoration:none}
+    .topbar{background:var(--navy);color:#fff;padding:13px 6%;display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap}
+    .brand{font-weight:800;letter-spacing:.3px}.brand span{color:var(--gold)}
+    .topbar small{color:#e6edf8}
+    nav{background:#fff;display:flex;align-items:center;justify-content:space-between;padding:15px 6%;position:sticky;top:0;z-index:10;box-shadow:0 3px 15px #071d4314}
+    nav .navbrand{font-weight:900;color:var(--navy);font-size:18px} nav .navbrand span{color:#d99c00}
+    .links{display:flex;gap:24px;align-items:center;font-size:14px;font-weight:700}
+    .links a:hover{color:#bd8700}
+    .menu{display:none;border:0;background:var(--navy);color:#fff;padding:9px 12px;border-radius:8px;font-size:18px}
+    .hero{background:var(--navy);padding:20px 0 28px}
+    .hero img{display:block;width:min(1200px,94%);height:auto;margin:auto;border-radius:12px;box-shadow:0 12px 35px #0004}
+    .intro{text-align:center;padding:62px 7% 54px;background:linear-gradient(180deg,#fff,#f5f8fc)}
+    .eyebrow{color:#b78200;font-weight:800;text-transform:uppercase;letter-spacing:2px;font-size:12px}
+    h1,h2{color:var(--navy);margin:10px 0 16px} h1{font-size:clamp(30px,5vw,52px)}
+    h2{font-size:clamp(26px,3vw,36px)}
+    .intro p{max-width:760px;margin:0 auto;color:#596579;line-height:1.8;font-size:17px}
+    .section{padding:58px 7%;max-width:1250px;margin:auto}
+    .section-head{text-align:center;margin-bottom:32px}.section-head p{color:#687487;line-height:1.7}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+    .card{background:#fff;border:1px solid #e7ebf1;border-radius:16px;padding:25px;box-shadow:0 8px 25px #071d430b}
+    .icon{width:48px;height:48px;border-radius:14px;background:#fff4cf;display:grid;place-items:center;font-size:24px;margin-bottom:15px}
+    .card h3{margin:0 0 9px;color:var(--navy)}.card p{margin:0;color:#687487;line-height:1.65;font-size:14px}
+    .banner2{background:#f3f6fb;padding:38px 3%}.banner2 img{display:block;width:min(1150px,100%);height:auto;margin:auto;border-radius:14px;box-shadow:0 12px 32px #071d4318}
+    .about{display:grid;grid-template-columns:1fr 1fr;gap:38px;align-items:center}
+    .about p{color:#647084;line-height:1.8}
+    .note{background:var(--cream);border-left:4px solid var(--gold);padding:17px 20px;border-radius:8px;color:#5d4b20;line-height:1.6;font-size:14px}
+
+    .packages{background:#f7f9fc;padding:58px 5%}
+    .package-poster{display:block;width:min(940px,100%);height:auto;margin:24px auto 0;border-radius:16px;box-shadow:0 12px 34px #071d4320}
+    .package-copy{max-width:940px;margin:0 auto;color:#687487;line-height:1.7;text-align:center}
+    .package-tags{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:18px}
+    .package-tags span{background:#fff4cf;color:#17305a;border:1px solid #f2d477;border-radius:30px;padding:9px 14px;font-size:13px;font-weight:700}
+
+    .contact{background:var(--navy);color:#fff;text-align:center;padding:60px 7%}
+    .contact h2{color:#fff}.contact p{color:#d8e1ef;line-height:1.7}
+    .contact-actions{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin-top:24px}
+    .btn{display:inline-block;padding:13px 22px;border-radius:30px;background:var(--gold);color:#142747;font-weight:800}
+    .btn.secondary{background:transparent;border:1px solid #fff;color:#fff}
+    footer{background:#04132d;color:#c7d2e2;padding:22px 6%;text-align:center;font-size:13px;line-height:1.7}
+    @media(max-width:760px){
+      .topbar{justify-content:center;text-align:center}.links{display:none;position:absolute;top:58px;left:0;right:0;background:#fff;padding:18px 6%;flex-direction:column;align-items:flex-start;box-shadow:0 8px 15px #0001}
+      .links.open{display:flex}.menu{display:block}.cards{grid-template-columns:1fr}.about{grid-template-columns:1fr}
+      .intro{padding:42px 6%}.section{padding:42px 6%}.hero{padding:10px 0 18px}
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="brand">SHREE <span>KAPILESHWAR</span> TOURS &amp; TRAVELS</div>
+    <small>By Mayur Chaudhari &nbsp; | &nbsp; <a href="https://www.instagram.com/shree_kapileshwar_tour_travles/" target="_blank" rel="noopener">Instagram: @shree_kapileshwar_tour_travles</a></small>
+  </div>
+  <nav>
+    <a class="navbrand" href="#home">SHREE <span>KAPILESHWAR</span></a>
+    <button class="menu" aria-label="Open navigation" onclick="document.querySelector('.links').classList.toggle('open')">☰</button>
+    <div class="links">
+      <a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#packages">Tour Packages</a><a href="#vehicles">Vehicles</a><a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <main id="home">
+    <section class="hero" aria-label="Shree Kapileshwar Tours and Travels banner">
+      <img src="assets/main-banner.png" alt="Shree Kapileshwar Tours and Travels by Mayur Chaudhari with travel vehicles">
+    </section>
+
+    <section class="intro">
+      <div class="eyebrow">Welcome to Shree Kapileshwar Tours and Travels</div>
+      <h1>Your Journey, Our Commitment</h1>
+      <p>Travel with Comfort... Reach with Trust... We aim to make every journey comfortable and convenient. Get in touch to discuss your travel plans.</p>
+    </section>
+
+    <section class="section" id="about">
+      <div class="about">
+        <div>
+          <div class="eyebrow">About us</div>
+          <h2>Travel with confidence</h2>
+          <p><strong>Shree Kapileshwar Tours and Travels</strong>, by <strong>Mayur Chaudhari</strong>, is presented with a simple promise: comfort, care and trust throughout your journey.</p>
+          <p>Contact us with your destination, travel date and group size to discuss a suitable travel arrangement.</p>
+        </div>
+        <div class="note">Planning a trip? Share your pickup point, destination, date and number of passengers when you contact us so the travel details can be discussed clearly.</div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="section-head">
+        <div class="eyebrow">Travel made simple</div>
+        <h2>Travel Enquiries</h2>
+        <p>Contact us to discuss the travel arrangement you need.</p>
+      </div>
+      <div class="cards">
+        <article class="card"><div class="icon">🚐</div><h3>Vehicle Enquiry</h3><p>Ask about vehicle availability for local trips and journeys across India.</p></article>
+        <article class="card"><div class="icon">🛣️</div><h3>Trip Planning</h3><p>Enquire about local journeys and outstation travel to destinations across India.</p></article>
+        <article class="card"><div class="icon">👨‍👩‍👧‍👦</div><h3>Group Travel</h3><p>Enquire about travel arrangements for your group.</p></article>
+      </div>
+    </section>
+
+
+    <section class="packages" id="packages">
+      <div class="section-head">
+        <div class="eyebrow">Explore our special tours</div>
+        <h2>Our Tour Packages</h2>
+        <p>Choose a pilgrimage or sightseeing package and contact us for dates, availability and booking details.</p>
+      </div>
+      <div class="package-copy">
+        <strong>Kapileshwar Jyotirling Darshan Yatra</strong> · <strong>Gujarat Darshan Yatra</strong> · <strong>Ashtavinayak Darshan Yatra</strong>
+        <div class="package-tags">
+          <span>17–27 Seater Tempo Traveller</span>
+          <span>AC / Non-AC options</span>
+          <span>Call for package details</span>
+        </div>
+      </div>
+      <img class="package-poster" src="assets/tour-packages.jpg" alt="Shree Kapileshwar Tours and Travels pilgrimage and sightseeing tour packages poster">
+    </section>
+
+    <section class="banner2" id="vehicles">
+      <img src="assets/travel-banner.png" alt="Shree Kapileshwar Tours and Travels white passenger van on a scenic road">
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <div class="eyebrow">Our promise</div>
+        <h2>Travel with Comfort. Reach with Trust.</h2>
+        <p>For bookings and availability, please contact the travel team directly.</p>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="eyebrow" style="color:#ffd45c">Get in touch</div>
+      <h2>Plan Your Next Journey</h2>
+      <p><strong>Shree Kapileshwar Tours and Travels</strong><br>By Mayur Chaudhari</p>
+      <p>Based in Bhusawal, Maharashtra · Local trips and tours across India</p>
+      <p><strong>Call / WhatsApp:</strong><br>
+        <a href="tel:+919067591977">+91 90675 91977 (Mayur Chaudhari)</a> &nbsp; | &nbsp;
+        <a href="tel:+918055429977">+91 80554 29977 (Mohan Chaudhari)</a>
+      </p>
+      <div class="contact-actions">
+        <a class="btn secondary" href="https://www.instagram.com/shree_kapileshwar_tour_travles/" target="_blank" rel="noopener">Follow on Instagram: @shree_kapileshwar_tour_travles</a>
+        <a class="btn" href="https://wa.me/919067591977?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20a%20trip.">WhatsApp Mayur Chaudhari</a>
+        <a class="btn secondary" href="tel:+918055429977">Call Mohan Chaudhari</a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    © <span id="year"></span> Shree Kapileshwar Tours and Travels · By Mayur Chaudhari<br>
+    Travel with Comfort... Reach with Trust...
+  </footer>
+  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
